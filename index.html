@@ -164,7 +164,6 @@ const engine = new Engine(GODOT_CONFIG);
 
 	const missing = Engine.getMissingFeatures({
 		threads: GODOT_THREADS_ENABLED,
-		cross_origin_isolate: true,
 	});
 
 	if (missing.length !== 0) {
